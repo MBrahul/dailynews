@@ -1,9 +1,5 @@
 // this project uses class based components *********************
 
-
-
-
-
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import News from './components/News'
@@ -75,7 +71,7 @@ setProgress =(progress)=>{
 
        <Routes>
        
-       <Route exact path='/' element={ <News setProgress ={this.setProgress} key={'general'}  mode={this.state.mode}/>}/>
+       <Route exact path='/dailynews' element={ <News setProgress ={this.setProgress} key={'general'}  mode={this.state.mode}/>}/>
        <Route exact path='/business' element={ <News setProgress ={this.setProgress} key={ 'business'} category = 'business'  mode={this.state.mode}/>}/>
        <Route exact path='/sports' element={ <News setProgress ={this.setProgress} key={'sports'} category = 'sports'  mode={this.state.mode}/>}/>
        <Route exact path='/health' element={ <News setProgress ={this.setProgress} key={'health'} category = 'health'  mode={this.state.mode}/>}/>
