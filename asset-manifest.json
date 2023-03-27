@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/dailynews/static/js/main.13d1449b.js",
+    "index.html": "/dailynews/index.html",
+    "main.13d1449b.js.map": "/dailynews/static/js/main.13d1449b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.13d1449b.js"
+  ]
+}
