@@ -44,12 +44,13 @@ export class Navbar extends Component {
                                 </li>
 
                             </ul>
-
-                        </div>
-                        <div className="form-check form-switch" style={this.props.checkBoxStyle}>
+                             <div className="form-check form-switch" style={this.props.checkBoxStyle}>
                             <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={this.props.handleMood} />
                             <label className="form-check-label" htmlFor="flexSwitchCheckDefault" > Dark-Mood</label>
                         </div>
+
+                        </div>
+                    
                     </div>
                 </nav>
             </>
