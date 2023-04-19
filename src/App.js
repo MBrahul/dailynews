@@ -65,8 +65,7 @@ setProgress =(progress)=>{
         <Navbar mode={this.state.mode} handleMood={this.handleMood} checkBoxStyle={this.state.checkBoxStyle} />
         <LoadingBar
         color='red'
-        progress={this.state.progress}
-        
+        progress={this.state.progress}  
       />
 
        <Routes>
